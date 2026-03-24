@@ -1,0 +1,15 @@
+/.idea/
+/.vs/
+/.vscode/
+
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/install/
+
+/artifacts/*.zip
+/artifacts/sdk/
+
+*.user
+*.sln.docstates
