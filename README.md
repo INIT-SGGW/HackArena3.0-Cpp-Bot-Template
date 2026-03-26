@@ -45,6 +45,15 @@ cmake -S template/user -B build -G "Visual Studio 17 2022" -A x64 ^
 cmake --build build --config Release
 ```
 
+Linux/Ninja example:
+
+```bash
+cmake -S . -B build-linux -G Ninja \
+  -DCMAKE_BUILD_TYPE=Release
+
+cmake --build build-linux -j
+```
+
 ## Run
 
 ```powershell
