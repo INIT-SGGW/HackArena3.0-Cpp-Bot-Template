@@ -8,7 +8,7 @@
 /out/
 /install/
 
-/artifacts/*.zip
+/artifacts/*.tar.gz
 /artifacts/sdk/
 
 *.user
