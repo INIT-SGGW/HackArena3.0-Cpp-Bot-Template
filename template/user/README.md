@@ -106,6 +106,6 @@ cmake --build build --config Release
 
 Environment variables used by the wrapper:
 
-- `HA3_WRAPPER_API_URL` (required for sandbox mode)
+- `HA3_WRAPPER_API_URL` (required for sandbox mode)  HA3_WRAPPER_API_URL="https://ha3-api.hackarena.pl/"
 - `HA_AUTH_PROFILE` (optional, passed through to `ha-auth`)
 - `HA3_WRAPPER_BACKEND_ENDPOINT`, `HA3_WRAPPER_TEAM_TOKEN`, `HA3_WRAPPER_AUTH_TOKEN` (official mode)
