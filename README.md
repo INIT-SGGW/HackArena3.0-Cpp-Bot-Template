@@ -24,7 +24,7 @@ Default local-archive workflow:
 
 1. Copy the SDK tar.gz archive into:
 
-   `artifacts\hackarena3-cpp-sdk-0.1.0b9-Windows-AMD64.tar.gz`
+   `artifacts\hackarena3-cpp-sdk-0.1.0-Windows-AMD64.tar.gz`
 
 2. Configure:
 
@@ -36,7 +36,7 @@ Explicit extracted-SDK workflow:
 
 ```powershell
 cmake -S template/user -B build -G "Visual Studio 17 2022" -A x64 ^
-  -DHACKARENA3_SDK_ROOT=C:\sdk\hackarena3-cpp-sdk-0.1.0b9-Windows-AMD64
+  -DHACKARENA3_SDK_ROOT=C:\sdk\hackarena3-cpp-sdk-0.1.0-Windows-AMD64
 ```
 
 ## Build
@@ -67,7 +67,7 @@ $env:HA_AUTH_PROFILE='preprod'
 Use CMake options like this:
 
 ```text
--DHACKARENA3_SDK_ROOT=C:\sdk\hackarena3-cpp-sdk-0.1.0b9-Windows-AMD64
+-DHACKARENA3_SDK_ROOT=C:\sdk\hackarena3-cpp-sdk-0.1.0-Windows-AMD64
 ```
 
 Notes:
